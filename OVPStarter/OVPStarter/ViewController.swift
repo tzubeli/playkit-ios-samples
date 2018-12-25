@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     
     var entryId: String?
     var ks: String?
-    var player: Player! // Created in viewDidLoad
+    var player: Player? // Created in viewDidLoad
     var state: State = .idle {
         didSet {
             let title: String
